@@ -25,4 +25,6 @@ uswds.paths.dist.js = './assets/js';
  */
 
 exports.init = uswds.init;
+exports.watch = uswds.watch;
 exports.compile = uswds.compile;
+exports.default = uswds.watch;
