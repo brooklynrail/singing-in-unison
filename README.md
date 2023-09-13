@@ -1,4 +1,5 @@
-# Brooklyn Rail in Venice
+# Brooklyn Rail
+## Singing in Unison
 
 
 ## Development
