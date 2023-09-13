@@ -7,7 +7,7 @@ description:
 order: 1
 ---
 
-{% include media.html filename="rail-venice-courtyard.png" size="md" alt="A red neon sign that says, Artists Need to Create on the Same Scale that Society Has the Capacity to Destroy, by artist Lauren Bon" caption="Top: Lauren Bon and the Metabolic Studio, <em>Artists need to Create on the Same Scale that Society Has the Capacity to Destroy</em>, 2019 Courtesy the artist. Bottom: Maya Lin, <em>Water Water Everywhere, Not a Drop to Drink</em>, 2019. Courtesy the artist and Pace Gallery, New York. Photo Samuele Cherubini. (c)Venice Documentation Project" %}
+{% include media.html filename="jane_jin_kaisen.jpg" size="md" alt="TKTK" caption="Top: Jane Jin Kaisen" %}
 
 
 <div class="margin-bottom-3 lead font-sans-lg tablet:font-sans-xl measure-4 text-light">The exhibition ‘Between Waves’ encompasses contemporary images, stories, histories, and oceanic myths of the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology.

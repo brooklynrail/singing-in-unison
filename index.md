@@ -6,8 +6,7 @@ layout: page
 title: 'Singing in Unison | The Brookyln Rail'
 deck: "TKTK"
 description: "TKTK"
-# To-do: Need to update the main image
-image: '/assets/media/rail-venice-courtyard.png'
+image: '/assets/media/jane_jin_kaisen.jpg'
 twitter:
   username: brooklnrail
   card: summary_large_image
