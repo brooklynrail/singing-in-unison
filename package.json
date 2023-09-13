@@ -1,7 +1,7 @@
 {
-  "name": "brooklynrail-venice",
+  "name": "brooklynrail-singing-in-unison",
   "version": "1.0.0",
-  "description": "Brooklyn Rail in Venice 2019",
+  "description": "Singing in Unison",
   "main": "index.js",
   "scripts": {
     "dependencies": "npm install && bundle install",
