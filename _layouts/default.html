@@ -7,7 +7,13 @@
   <div class="padding-bottom-9 paper bg-white height-auto">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
-    {% include header.html %}
+    <section class="hero">
+      {% include background-video.html %}
+      <div>
+        {% include header.html %}
+        {% include hero.html %}
+      </div>
+    </section>
 
     {{ content }}
 
