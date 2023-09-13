@@ -10,7 +10,7 @@ order: 1
 {% include media.html filename="jane_jin_kaisen.jpg" size="md" alt="TKTK" caption="Top: Jane Jin Kaisen" %}
 
 
-<div class="margin-bottom-3 lead font-sans-lg tablet:font-sans-xl measure-4 text-light">The exhibition ‘Between Waves’ encompasses contemporary images, stories, histories, and oceanic myths of the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology.
+<div class="margin-bottom-3 lead font-sans-lg tablet:font-sans-xl measure-4 text-light">Between Waves encompasses contemporary images, stories, histories, and oceanic myths of the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology.
 </div>
 
 This vast living body of water contains a vibrant, strong cultural presence perpetually resilient in light of colonialism, world war, Cold War, nuclear threat, and ecological disasters.
