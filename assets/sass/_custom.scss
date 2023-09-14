@@ -128,33 +128,3 @@ code{
   }
 }
 
-.hero{
-  width:100%;
-  height:100vh;
-  @include u-position('relative');
-  @include u-bg('black');
-  padding:0 5%;
-  overflow: hidden;
-  display:flex;
-  justify-content:center;
-}
-
-.background-video{
-  @include u-top(0);
-  @include u-bottom(0);
-  @include u-right(0);
-  @include u-left(0);
-  @include u-position('absolute');
-}
-@media (min-aspect-ratio:16/9){
-  .background-video{
-    width:100%;
-    height:auto;
-  }
-}
-@media (max-aspect-ratio:16/9){
-  .background-video{
-    width:auto;
-    height:100%;
-  }
-}
