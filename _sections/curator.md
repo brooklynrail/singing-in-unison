@@ -1,8 +1,8 @@
 ---
 layout: section
-title: Curators
-nav-title: Curators
-permalink: /curators/
+title: Curator
+nav-title: Curator
+permalink: /curator/
 description:
 order: 4
 ---
