@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dependencies": "npm install && bundle install",
-    "start": "bundler exec jekyll serve --incremental --livereload",
+    "start": "rm -rf _site && bundler exec jekyll serve --incremental --livereload",
     "gulp": "node ./node_modules/gulp/bin/gulp.js",
     "init": "npm run gulp -- init && git checkout -- ./assets/sass/_uswds-theme-typography.scss"
   },
