@@ -49,7 +49,7 @@ $theme-color-primary-darkest:       false;
 $theme-color-secondary-family:      'blue-cool';
 $theme-color-secondary-lightest:    false;
 $theme-color-secondary-lighter:     'blue-cool-10';
-$theme-color-secondary-light:       'blue-cool-20';
+$theme-color-secondary-light:       'blue-cool-20v';
 $theme-color-secondary:             'blue-cool-50';
 $theme-color-secondary-vivid:       'blue-cool-30v';
 $theme-color-secondary-dark:        'blue-cool-60v';
@@ -127,7 +127,7 @@ General colors
 */
 
 // Links
-$theme-link-color:             'secondary-vivid';
+$theme-link-color:             'secondary-light';
 $theme-link-visited-color:     'secondary-vivid';
 $theme-link-hover-color:       'secondary-dark';
 $theme-link-active-color:      'secondary-darker';
