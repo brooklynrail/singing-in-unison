@@ -11,5 +11,5 @@ Founded in October 2000 and currently published 10 times annually, the _Brooklyn
 
 The _Rail_ further fulfills its mission by curating art exhibitions, panel discussions, reading series and film screenings that reflect the complexity and inventiveness of the city’s artistic and cultural landscape.
 
-To learn more, visit [https://brooklynrail.org](https://brooklynrail.org/)<br/>
-Follow us on Instagram [https://instagram.com/brooklynrail](https://www.instagram.com/brooklynrail/)
+To learn more, visit [brooklynrail.org](https://brooklynrail.org/)<br/>
+Follow us on Instagram [instagram.com/brooklynrail](https://www.instagram.com/brooklynrail/)
