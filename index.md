@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: 'Singing in Unison | The Brookyln Rail'
+title: 'Singing in Unison'
 deck: "TKTK"
 description: "TKTK"
 image: '/assets/media/jane_jin_kaisen.jpg'
