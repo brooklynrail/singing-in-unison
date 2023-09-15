@@ -7,10 +7,23 @@ description:
 order: 1
 ---
 
-{% include media.html filename="jane_jin_kaisen.jpg" size="md" alt="TKTK" caption="Top: Jane Jin Kaisen" %}
 
 
-<div class="margin-bottom-3 font-sans-lg tablet-lg:font-sans-xl line-height-sans-2 text-light">Between Waves encompasses contemporary images, stories, histories, and oceanic myths of the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology.
+
+<div class="margin-bottom-3 font-sans-lg tablet-lg:font-sans-xl line-height-sans-2 text-light"><p>Between Waves encompasses contemporary images, stories, histories, and oceanic myths through the works of artists from the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology. The artworks trace currents between individual islands and groups of islanders carrying memory, historical trauma, reflection on co-existence, and new possibilities.</p></div>
+
+<div class="floated-video">
+  <video autoplay loop muted playsinline class="background-video">
+    <source src="./assets/media/clip4.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Jane Jin Kaisen</p>
+</div>
+
+<div class="floated-video">
+  <video autoplay loop muted playsinline class="background-video">
+    <source src="./assets/media/clip3.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Jane Jin Kaisen</p>
 </div>
 
 Curated by Alice, Nien-Pu Ko, Singing in Unison, Part 8: Between Waves will carry on the ethos of previous installments, but through a lens that centers the Asia-Pacific. Drawing on histories, contemporary iconography, stories, and oceanic myths, the exhibition will use transformative technologies to bridge the islands that comprise the region. Referred to as the “Ocean of Islands,” some 25,000 islands, islets, and atolls are scattered amidst the Pacific Ocean, between them there are nearly 1,000 languages spoken. 
