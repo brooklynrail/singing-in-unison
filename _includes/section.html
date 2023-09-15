@@ -1,23 +1,17 @@
 {% assign sorted_sections = site.sections | sort:"order" %}
 {% for section in sorted_sections %}
-<section class="padding-y-4">
-  <div class="grid-container">
-    <div class="grid-row grid-gap-4" data-edit-this="{{ section.path }}">
-      <div class="grid-col-12">
-        <h2 id="{{ section.id | slugify }}">{{ section.title | escape }}</h2>
-        <div>
-          {% if section.id == '/photos' %}
-            <div class="venice-photos">
-              {{ section.content }}
-            </div>
-          {% else if %}
-            {{ section.content }}
-          {% endif %}
-
-        </div>
+<div class="padding-y-2 tablet-lg:padding-y-4" data-edit-this="{{ section.path }}">
+  <h2 id="{{ section.id | slugify }}">{{ section.title | escape }}</h2>
+  <div>
+    {% if section.id == '/photos' %}
+      <div class="venice-photos">
+        {{ section.content }}
       </div>
-    </div>
+    {% else if %}
+      {{ section.content }}
+    {% endif %}
+
   </div>
-</section>
+</div>
 
 {% endfor %}
