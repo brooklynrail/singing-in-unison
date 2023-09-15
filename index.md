@@ -5,7 +5,7 @@
 layout: page
 title: 'Singing in Unison'
 deck: ""
-description: "Works from artists from the Asia-Pacific region through the interconnectedness of islands and oceans, linked by transformative technology."
+description: "Opening: Oct 7, 6-8pm — Works from artists from the Asia-Pacific region through the interconnectedness of islands and oceans, linked by transformative technology."
 image: "./assets/media/jane_jin_kaisen.jpg"
 twitter:
   username: brooklnrail
