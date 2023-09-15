@@ -42,7 +42,7 @@
   @include u-overflow('hidden');
   @include u-position('relative');
   @include at-media('desktop') {
-    @include u-width('tablet');
+    @include u-width('mobile-lg');
     @include u-height('auto');
   }
   .caption{

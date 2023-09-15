@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Hours and location
-nav-title: Hours and location
+nav-title: Visit
 permalink: /hours-location/
 description:
 order: 3
