@@ -47,7 +47,7 @@
     @include u-padding-x('05');
   }
   figcaption{
-    @include u-text('base');
+    @include u-text('base-lighter');
     @include u-padding-x('05');
   }
 }
@@ -68,6 +68,12 @@
 }
 .width-sm{
   @include u-width('mobile-lg');
+}
+
+.width-xs{
+  @include u-margin-x(0);
+  @include u-width('mobile');
+  @include u-float('none');
 }
 
 .lead a{
