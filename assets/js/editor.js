@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-  var giturl = 'https://github.com/brooklynrail/singing-in-unison/edit/master/';
+  var giturl = 'https://github.com/brooklynrail/singing-in-unison/edit/main/';
   var all = document.querySelectorAll("[data-edit-this]");
   $(all).each(function( i, e ) {
     var path = $(e).attr('data-edit-this');
