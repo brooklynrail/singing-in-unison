@@ -10,8 +10,8 @@
   .background-video{
     @include u-top(0);
     @include u-bottom(0);
-    @include u-right(0);
-    @include u-left(0);
+    @include u-right('auto');
+    @include u-left('auto');
     @include u-position('absolute');
   }
   @media (min-aspect-ratio:16/9){
