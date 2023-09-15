@@ -16,7 +16,7 @@ order: 1
   <video autoplay loop muted playsinline class="background-video">
     <source src="./assets/media/clip4.mp4" type="video/mp4">
   </video>
-  <p class="caption">Jane Jin Kaisen</p>
+  <p class="caption">Leiko Shiga</p>
 </div>
 
 For democracy to survive, Alexis de Tocqueville, in his Democracy in America (1835–40), proposed the term “art of joining” as opposed to self-isolation. For when we voluntarily join in associations in order to further the interests of the group, we therefore serve our own interests. Similarly, Horace Kallen in _Democracy Versus the Melting Pot_ (1915), advocated instead of assimilating all Americans into the melting pot under the premise of broadly Anglo-Saxon American identity, they ought to be free to exercise their distinct cultural heritage and the differences that they brought with them. The aspiration of cultural pluralism is analogous to a symphony, a musical platform from which each player is embraced for their specific instrument with a specific sound, each contributing in unison to the symphonic sound. In 2022, Rail Curatorial Projects presented an ongoing series of exhibitions entitled “Singing in Unison,” featuring works of art, made by artists, shown side-by-side, young and old, taught and self-taught, emerging and established, which thus far been presented at Art Cake, Scully Tomasko Foundation, TOTAH, Below Grand, Ricco/Maresca, Miguel Abreu, and Industry City.
