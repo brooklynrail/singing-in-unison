@@ -72,7 +72,7 @@
 
 .width-xs{
   @include u-margin-x(0);
-  @include u-width('mobile');
+  @include u-width('card-lg');
   @include u-float('none');
 }
 
