@@ -15,8 +15,6 @@ order: 5
 
 [Futoshi Miyagi](https://fmiyagi.com/) (b. Okinawa, Japan) works in various mediums, such as photography, objects, video and text, to construct narratives on the subjects of sexual minorities and untold stories in history, often in relation to Okinawa. Much of Miyagi's work is inspired by his own memories and coming to terms with his identity as a gay Okinawan man.
 
-[Mao Ishikawa](https://en.wikipedia.org/wiki/Mao_Ishikawa) (b. Okinawa, Japan) has been taking pictures of people in Okinawa for over 40 years. Mao Ishikawa turned to photography amid the turmoil of Okinawa’s return to Japanese sovereignty. The images are remarkable for the detail with which they capture their subjects’ social and cultural milieu, along with Ishikawa’s trademark verve, wit, and daring.
-
 [Jane Jin Kaisen](https://janejinkaisen.com/)’s (b. Jeju Island, South Korea, lives in Copenhagen) artistic practice spans the mediums of video installation, narrative experimental film, photographic installation, performance, and text, and is informed by extensive interdisciplinary research and engagement with diverse communities. She is known for her visually striking, multilayered, performative, poetic, and multi-voiced feminist works through which past and present are brought into relation.
 
 [Yuki Kihara](https://yukikihara.ws/) (b. Apia, Sāmoa) is an interdisciplinary artist of Japanese and Sāmoan descent. Through a research-based approach, her work seeks to challenge dominant and singular historical narratives through a wide range of mediums, including performance, sculpture, video, photography and curatorial practice.
