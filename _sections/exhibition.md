@@ -7,9 +7,6 @@ description:
 order: 1
 ---
 
-
-
-
 <div class="margin-bottom-3 font-sans-lg tablet-lg:font-sans-xl line-height-sans-2 text-light"><p>Between Waves encompasses contemporary images, stories, histories, and oceanic myths through the works of artists from the Asia-Pacific region through the interconnectedness of islands and oceans linked by transformative technology. The artworks trace currents between individual islands and groups of islanders carrying memory, historical trauma, reflection on co-existence, and new possibilities.</p></div>
 
 <div class="floated-video">
@@ -25,7 +22,7 @@ For democracy to survive, Alexis de Tocqueville, in his Democracy in America (18
   <video autoplay loop muted playsinline class="background-video">
     <source src="./assets/media/clip3.mp4" type="video/mp4">
   </video>
-  <p class="caption">Jane Jin Kaisen</p>
+  <p class="caption">Jane Jin Kaisen, "Offering – Coil Embrace", video installation, 2023</p>
 </div>
 
 **_Singing in Unison, Part 8_**: Between Waves, curated by Alice, Nien-Pu Ko, attests a similar ethos by focusing on the regions of Asia-Pacific. As Fijian anthropologist Epeli Hau’ofa had suggested in his _Our Sea of Islands_ (1993), there’s also a smallness and isolation inherent to islands—referring to the “Ocean of Islands,” some 25,000 islands, islets, and atolls are scattered amidst the Pacific Ocean, and nearly 1,000 languages spoken in total. Drawing on histories, oceanic myths, stories, in addition to the shared political traumas resulting from colonialism, militarism, warfare (global, nuclear), and ecological disaster, many of the regions remain in constant flux: an ever-changing militarization throughout the islands. Concurrently, in implementing the coexistence of traditional and modern thinking as responses to the growing geopolitical tensions, conflicting social values, among other frictions, this exhibition explores these layers of complexity through the works of seventeen artists, filmmakers, photographers, poets, musicians, and thinkers from Taiwan, Japan, the Philippines, Borneo, Jeju Island, the Hawaiian islands, American Samoa, and New Zealand.
