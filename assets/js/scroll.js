@@ -28,18 +28,17 @@ jQuery(document).ready(function($) {
       &&
       location.hostname == this.hostname
     ) {
-      var barHeight = $(".bar").height() + 40;
+      // var barHeight = $(".bar").height() + 40;
       // Figure out element to scroll to
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
-      
       // Does a scroll target exist?
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
 
-        $(target).get(0).scrollIntoView({behavior: 'smooth', block: 'nearest'});
+        $(target).get(0).scrollIntoView({behavior: 'smooth', block: 'start'});
        
       }
     }
