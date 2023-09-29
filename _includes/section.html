@@ -1,7 +1,7 @@
 {% assign sorted_sections = site.sections | sort:"order" %}
 {% for section in sorted_sections %}
-<div class="padding-y-4" data-edit-this="{{ section.path }}">
-  <h2 id="{{ section.id | slugify }}" name="{{ section.id | slugify }}">{{ section.title | escape }}</h2>
+<div class="padding-y-4" data-edit-this="{{ section.path }}" name="{{ section.id | slugify }}">
+  <h2 id="{{ section.id | slugify }}">{{ section.title | escape }}</h2>
   <div>
     {% if section.id == '/photos' %}
       <div class="venice-photos">
