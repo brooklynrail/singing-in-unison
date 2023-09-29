@@ -13,7 +13,7 @@ order: 5
 
 [Yin-Ju Chen](http://www.yinjuchen.com/) (b. Taipei, Taiwan) is an interdisciplinary artist whose practice spans the mediums of video, photography, drawing, and installation, with an oeuvre featuring works that reflect a primary interest in the relationship between cosmic events and human behavior. Chen reinterprets important historical events through a series of intricate, map-like drawings, continuing her investigation of the concept of power and its role and function in society.
 
-[Tiffany Chung](https://www.trfineart.com/artist/tiffany-chung/#artist-works) (b. Da Nang, Vietnam; based in Houston, Texas) is a Vietnamese American visual artist known for her map-based drawings, embroideries, paintings, sculptures, photographs, and videos that examine conflict, geopolitical partitioning, spatial transformation, environmental crisis, and forced migration in relation to history and cultural memory.
+[Jesse Chun](https://www.jessechun.com/) (b. Seoul, South Korea ) uses immersive poetics in moving image, drawing, sculpture, and installation address language -- its politics, translations, and diasporas. Traversing found historiographies and imprints of linguistic imperialism as a site for rupture, abstraction, and (un)languaging, Chun's work unearths alternate semiotics and cosmologies for non-linear passages of meaning, time, and the untranslatable.
 
 [Futoshi Miyagi](https://fmiyagi.com/) (b. Okinawa, Japan) works in various mediums, such as photography, objects, video and text, to construct narratives on the subjects of sexual minorities and untold stories in history, often in relation to Okinawa. Much of Miyagi's work is inspired by his own memories and coming to terms with his identity as a gay Okinawan man.
 
