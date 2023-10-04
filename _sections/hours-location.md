@@ -14,7 +14,7 @@ order: 3
 
   <p><strong>Admission:</strong><br/>The exhibition is free and open to the public</p>
 
-  <p><strong>Hours:</strong><br/>Tuesdays &ndash; Sundays, 11 AM &ndash; 6 PM</p>
+  <p><strong>Hours:</strong><br/>Wednesday &ndash; Sunday, 11 AM &ndash; 6 PM</p>
 
 </div>
 
