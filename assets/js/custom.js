@@ -26,10 +26,10 @@ $(document).ready(function(){
     ]
   };
 
-  $('.venice-photos').slick(slick_settings);
+  $('.singinginunison-photos').slick(slick_settings);
 
   $(window).on('resize orientationchange', function() {
-    $('.venice-photos').slick('resize');
+    $('.singinginunison-photos').slick('resize');
   });
 
 });
