@@ -1,19 +1,10 @@
-// *[id]:before {
-//   @include u-display('block');
-//   content: " ";
-//   margin-top: -95px; // Set the Appropriate Height
-//   height: 95px; // Set the Appropriate Height
-//   visibility: hidden;
-// }
-
-/* Rectangle 78 */
-
 body {
   color: #000000;
+  background-color: #e52207;
 }
 
 .paper {
-  background-color: #e52207;
+  @include u-bg("gray-warm-5");
 }
 
 #backtop {
@@ -86,6 +77,28 @@ code {
   }
 }
 
+.exhibition-card {
+  @include u-bg("gray-warm-5");
+  // @include u-cursor("pointer");
+  h2 {
+    a {
+      text-decoration: none;
+      @include u-text("gray-cool-80");
+      &:hover {
+        text-decoration: underline;
+      }
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+      }
+    }
+  }
+}
+
 // ===========
 
 body.siu8 {
@@ -110,9 +123,20 @@ body.siu8 {
 body.siu9 {
   @include u-text("gray-cool-80");
   .paper {
-    @include u-bg("white");
+    @include u-bg("gray-warm-2");
+    background: linear-gradient(160.44deg, #f0f0ec 60%, #b1deee 100%);
+    background-attachment: fixed;
   }
   .hero {
-    @include u-bg("gray-warm-2");
+    // @include u-bg("gray-warm-5");
+  }
+}
+
+.siu8.exhibition-card {
+  background: linear-gradient(160.44deg, #000000 44.27%, #234347 86.9%);
+  background-attachment: fixed;
+  @include u-text("blue-cool-5");
+  a {
+    @include u-text("blue-cool-20v");
   }
 }

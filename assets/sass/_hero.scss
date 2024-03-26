@@ -1,7 +1,6 @@
 .hero {
   width: 100%;
   @include u-position("relative");
-  @include u-bg("white");
   @include u-text("gray-cool-80");
   padding: 0;
   overflow: hidden;

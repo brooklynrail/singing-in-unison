@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<section class="hero {% if page.video %} height-viewport{% endif %}">
+  {% if page.video %}{% include background-video.html %}{% endif %}
+  <div>{% include header.html %} {% include hero.html %}</div>
+</section>
+
 <section class="padding-y-4 tablet-lg:padding-y-8">
   <div class="grid-container">
     <div class="grid-row grid-gap-4">

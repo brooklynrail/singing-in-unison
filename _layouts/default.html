@@ -7,14 +7,6 @@
   <div class="padding-bottom-9 paper height-auto">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
 
-    <section class="hero {% if page.video %} height-viewport{% endif %}">
-      {% if page.video %}{% include background-video.html %}{% endif %}
-      <div>
-        {% include header.html %}
-        {% include hero.html %}
-      </div>
-    </section>
-
     {{ content }}
 
     {% include footer.html %}
