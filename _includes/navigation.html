@@ -1,17 +1,34 @@
-<nav role="navigation" class="tablet-lg:padding-y-4 position-sticky top-0">
-
+<nav
+  role="navigation"
+  id="navigation"
+  class="tablet-lg:padding-y-4 position-sticky top-0"
+>
   <ul class="add-list-reset">
-    {% assign sorted_sections = site.sections | sort:"order" %}
-    {% for section in sorted_sections %}
-    <li class="margin-0 font-sans-sm tablet:font-sans-md line-height-sans-1 text-normal line-height-sans-4">
-      <a class="padding-y-1 display-inline-block text-no-underline" href="#{{ section.url | slugify }}" title="view {{ section.nav-title }}">
-        <span class="hover:border-bottom-2px">{{ section.nav-title }}</span> <i class="fas fa-angle-right"></i>
+    {% assign sorted_sections = site.sections | sort:"order" %} {% for section
+    in sorted_sections %} {% if section.show != page.show %}{% continue %} {%
+    endif %}
+    <li
+      class="margin-0 font-sans-sm tablet:font-sans-md line-height-sans-1 text-normal line-height-sans-4"
+    >
+      <a
+        class="padding-y-1 display-inline-block text-no-underline"
+        href="#{{ section.url | slugify }}"
+        title="view {{ section.nav-title }}"
+      >
+        <span class="hover:border-bottom-2px">{{ section.nav-title }}</span>
+        <i class="fas fa-angle-right"></i>
       </a>
     </li>
     {% endfor %}
-    <li class="margin-0 font-sans-sm tablet:font-sans-md text-normal line-height-sans-1 line-height-sans-4">
-      <a class="padding-y-1 display-inline-block text-no-underline" href="https://www.instagram.com/brooklynrail/"><i class="fab fa-instagram"></i> <span class="hover:border-bottom-2px">Instagram</span></a>
+    <li
+      class="margin-0 font-sans-sm tablet:font-sans-md text-normal line-height-sans-1 line-height-sans-4"
+    >
+      <a
+        class="padding-y-1 display-inline-block text-no-underline"
+        href="https://www.instagram.com/brooklynrail/"
+        ><i class="fab fa-instagram"></i>
+        <span class="hover:border-bottom-2px">Instagram</span></a
+      >
     </li>
   </ul>
-
 </nav>

@@ -1,0 +1,91 @@
+.media {
+  @include u-margin-y(2);
+  @include u-margin-right(0);
+  .credit {
+    @include u-display("block");
+    @include u-text("base");
+    @include u-text("right");
+    @include u-padding-x("05");
+  }
+  figcaption {
+    @include u-text("base-lighter");
+    @include u-padding-x("05");
+  }
+}
+.width-xl {
+  @include u-margin-x(0);
+  @include u-width("full");
+}
+.width-lg {
+  @include u-margin-x(0);
+  @include u-width("full");
+  @include at-media("desktop") {
+    @include u-width("tablet-lg");
+  }
+}
+.width-md {
+  @include u-margin-left(0);
+  @include u-width("full");
+  @include at-media("desktop") {
+    @include u-margin-left(2);
+    @include u-width("tablet");
+    @include u-float("right");
+  }
+}
+.width-sm {
+  @include u-width("full");
+  @include at-media("desktop") {
+    @include u-margin-left(2);
+    @include u-width("mobile");
+    @include u-float("right");
+  }
+}
+
+.width-xs {
+  @include u-margin-x(0);
+  @include u-width("card-lg");
+  @include u-float("none");
+  @include at-media("desktop") {
+    @include u-margin-left(2);
+    @include u-width("mobile");
+    @include u-float("right");
+  }
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.floated-video {
+  @include u-margin-bottom(3);
+  @include u-width("full");
+  @include u-height("auto");
+  @include u-float("right");
+  @include u-margin-left(4);
+  @include u-overflow("hidden");
+  @include u-position("relative");
+  @include at-media("desktop") {
+    @include u-width("mobile-lg");
+    @include u-height("auto");
+  }
+  .caption {
+    @include u-margin(0);
+    @include u-padding-x("05");
+    @include u-text("base");
+    @include u-font("sans", "3xs");
+  }
+}

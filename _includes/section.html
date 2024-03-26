@@ -1,10 +1,12 @@
-{% assign sorted_sections = site.sections | sort:"order" %}
-{% for section in sorted_sections %}
-<div class="padding-y-4" data-edit-this="{{ section.path }}" name="{{ section.id | slugify }}">
-  <h2 id="{{ section.id | slugify }}">{{ section.title | escape }}</h2>
-  <div>
-    {{ section.content }}
-  </div>
+{% assign sorted_sections = site.sections | sort:"order" %} {% for section in
+sorted_sections %} {% if section.show != page.show %}{% continue %} {% endif %}
+<div
+  class="padding-y-4"
+  data-edit-this="{{ section.path }}"
+  name="{{ section.permalink | slugify }}"
+>
+  <h2 id="{{ section.permalink | slugify }}">{{ section.title | escape }}</h2>
+  <div>{{ section.content }}</div>
 </div>
 
 {% endfor %}

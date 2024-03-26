@@ -8,142 +8,111 @@
 
 /* Rectangle 78 */
 
-/* Rectangle 78 */
-
-
-
-.paper{
-  background: linear-gradient(160.44deg, #000000 44.27%, #234347 86.9%);
-  background-attachment: fixed;
+body {
+  color: #000000;
 }
 
-
+.paper {
+  background-color: #e52207;
+}
 
 #backtop {
-  @include u-border('1px', 'red-50v', 'solid');
+  @include u-border("1px", "red-50v", "solid");
   outline: none; /* Remove outline */
-  @include u-bg('white');
-  @include u-color('red-50v');
+  @include u-bg("white");
+  @include u-color("red-50v");
   cursor: pointer; /* Add a mouse pointer on hover */
-  @include u-padding-y('05');
+  @include u-padding-y("05");
   @include u-padding-x(1);
-  @include u-radius('sm');
-  @include u-text('light');
-  @include u-font('sans', 'sm');
-  &:hover{
-    span{
-      @include u-border-bottom('1px', 'red-50v', 'solid');
+  @include u-radius("sm");
+  @include u-text("light");
+  @include u-font("sans", "sm");
+  &:hover {
+    span {
+      @include u-border-bottom("1px", "red-50v", "solid");
     }
   }
 }
 
-.media{
-  @include u-margin-y(2);
-  @include u-margin-right(0);
-  .credit{
-    @include u-display('block');
-    @include u-text('base');
-    @include u-text('right');
-    @include u-padding-x('05');
-  }
-  figcaption{
-    @include u-text('base-lighter');
-    @include u-padding-x('05');
-  }
-}
-.width-xl{
-  @include u-width('full');
-}
-.width-lg{
-  @include u-width('tablet-lg');
-}
-.width-md{
-  @include u-margin-left(0);
-  @include u-width('full');
-  @include at-media('desktop') {
-    @include u-margin-left(2);
-    @include u-width('tablet');
-    @include u-float('right');
-  }
-}
-.width-sm{
-  @include u-width('mobile-lg');
+.lead a {
+  @include u-text("no-underline");
+  @include u-border-bottom("2px", "dotted", "secondary-vivid");
 }
 
-.width-xs{
-  @include u-margin-x(0);
-  @include u-width('card-lg');
-  @include u-float('none');
-}
-
-.lead a{
-  @include u-text('no-underline');
-  @include u-border-bottom('2px','dotted','secondary-vivid');
-}
-
-.rsvp{
-  @include u-margin-x('05');
+.rsvp {
+  @include u-margin-x("05");
   @include u-padding-x(1);
-  @include u-padding-y('05');
-  @include u-radius('sm');
-  @include u-bg('red-50v');
-  @include u-text('white');
-  @include u-text('medium');
-  @include u-text('no-underline');
-  @include u-font('sans', '3xs');
-  &:hover{
-    @include u-text('white');
-    @include u-text('underline');
+  @include u-padding-y("05");
+  @include u-radius("sm");
+  @include u-bg("red-50v");
+  @include u-text("white");
+  @include u-text("medium");
+  @include u-text("no-underline");
+  @include u-font("sans", "3xs");
+  &:hover {
+    @include u-text("white");
+    @include u-text("underline");
   }
 }
 
 .edit-this {
-  @include u-display('none');
-  a{
+  @include u-display("none");
+  a {
     @include u-padding-x(1);
-    @include u-padding-y('05');
-    @include u-radius('md');
-    @include u-text('no-underline');
-    @include u-border('1px','solid','secondary-vivid');
-    @include u-font('sans', 'xs');
+    @include u-padding-y("05");
+    @include u-radius("md");
+    @include u-text("no-underline");
+    @include u-border("1px", "solid", "secondary-vivid");
+    @include u-font("sans", "xs");
   }
 }
 
-.video{
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
+code {
+  @include u-padding-x("05");
+  @include u-padding-y("2px");
+  @include u-bg("white");
+  @include u-border("1px", "solid", "base-lighter");
+  @include u-radius("md");
 }
 
-.video iframe,
-.video object,
-.video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.emoji {
+  @include u-position("relative");
+  @include u-top("05");
 }
 
-code{
-  @include u-padding-x('05');
-  @include u-padding-y('2px');
-  @include u-bg('white');
-  @include u-border('1px','solid','base-lighter');
-  @include u-radius('md');
-}
-
-.emoji{
-  @include u-position('relative');
-  @include u-top('05');
-}
-
-
-.note{
-  p{
+.note {
+  p {
     @include u-margin-y(0);
   }
 }
 
+// ===========
+
+body.siu8 {
+  @include u-text("blue-cool-5");
+  a {
+    @include u-text("blue-cool-20v");
+  }
+  .paper {
+    background: linear-gradient(160.44deg, #000000 44.27%, #234347 86.9%);
+    background-attachment: fixed;
+  }
+  .hero {
+    @include u-bg("black");
+  }
+  #navigation {
+    ul li a {
+      @include u-text("blue-cool-20v");
+    }
+  }
+}
+
+body.siu9 {
+  @include u-text("gray-cool-80");
+  .paper {
+    @include u-bg("white");
+  }
+  .hero {
+    @include u-bg("gray-warm-2");
+  }
+}
