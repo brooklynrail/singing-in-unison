@@ -1,46 +1,93 @@
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    {% seo %}
+  {% seo %}
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ "assets/css/styles.css" }}?{{ site.time | date: '%Y%m%j%H%M%S' }}">
-
-  <link rel="stylesheet" type="text/css" href="{{ "assets/css/slick.css" }}"/>
-  <link rel="stylesheet" type="text/css" href="{{ "assets/css/slick-theme.css" }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" }}?{{
+  site.time | date: '%Y%m%j%H%M%S' }}"> <link rel="stylesheet" type="text/css"
+  href="{{ "/assets/css/slick.css" }}"/> <link rel="stylesheet" type="text/css"
+  href="{{ "/assets/css/slick-theme.css" }}"/>
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
 
   <!-- icons -->
-  <link rel="shortcut icon" href="assets/img/favicons/apple-touch-icon.png">
-  <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png" />
+  <link rel="shortcut icon" href="/assets/img/favicons/apple-touch-icon.png" />
+  <link
+    rel="apple-touch-icon"
+    href="/assets/img/favicons/apple-touch-icon.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="/assets/img/favicons/apple-touch-icon-57x57.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="72x72"
+    href="/assets/img/favicons/apple-touch-icon-72x72.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="/assets/img/favicons/apple-touch-icon-76x76.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="/assets/img/favicons/apple-touch-icon-114x114.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="120x120"
+    href="/assets/img/favicons/apple-touch-icon-120x120.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="144x144"
+    href="/assets/img/favicons/apple-touch-icon-144x144.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="/assets/img/favicons/apple-touch-icon-152x152.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/assets/img/favicons/apple-touch-icon-180x180.png"
+  />
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <link
+    rel="sitemap"
+    type="application/xml"
+    title="Sitemap"
+    href="/sitemap.xml"
+  />
 
   <!-- GitHub -->
   <script type="text/javascript">
-    source_of_truth              = "{{ site.source_of_truth }}";
-    github_org                   = "{{ site.github_org }}";
-    github_repo                  = "{{ site.github_repo }}";
-    filepath                     = "{{ page.path }}";
-    filepathURL                  = "https://github.com/{{ site.github_org }}/{{ site.github_repo }}/edit/master/{{ page.path }}";
-    commit_api                   = "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/commits?path=/{{ page.path }}";
-    issues_api                   = "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/issues?labels=bug&per_page=100";
+    source_of_truth = "{{ site.source_of_truth }}";
+    github_org = "{{ site.github_org }}";
+    github_repo = "{{ site.github_repo }}";
+    filepath = "{{ page.path }}";
+    filepathURL =
+      "https://github.com/{{ site.github_org }}/{{ site.github_repo }}/edit/master/{{ page.path }}";
+    commit_api =
+      "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/commits?path=/{{ page.path }}";
+    issues_api =
+      "https://api.github.com/repos/{{ site.github_org }}/{{ site.github_repo }}/issues?labels=bug&per_page=100";
   </script>
 
   {% include analytics.html %}
-
 </head>
