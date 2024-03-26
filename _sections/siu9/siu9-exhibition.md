@@ -13,7 +13,7 @@ show: siu9
 
 {% include media.html filename="siu9/acheson-smith.png" size="lg" alt="" caption="TKTK" %}
 
-_Singing in Unison, Part 9_, in collaboration with SLAG & RX Galleries, is presenting a selection of paintings by Peter Acheson in dialogue with sculptures by Gret Sterrett Smith.
+_Singing in Unison, Part 9_, in collaboration with SLAG&RX, is presenting a selection of paintings by Peter Acheson in dialogue with sculptures by Gret Sterrett Smith.
 
 Both artists are products of countercultural movements that reject American jingoism and consumerism, and have shared a lifelong interest in the Jungian theory of the collective unconscious, considering alchemy’s dual nature—the chemical and mystical—which has shaped their lives. Though they each have deeply contemplated in different ways the visionary lineage that can be traced back to the works of Carl Jung, Albert Pinkham Ryder, Robert Duncan, Jess, Diane di Prima, James Hillman, Michael Heizer, Gillian Jagger, Martin Puryear to Ron Gorchov, Ursula von Rydingsvard, and Bill Jensen, both Acheson and Smith yield a similar affinity in respect to their pictorial processes.
 
