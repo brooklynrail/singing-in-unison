@@ -2,18 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
 
-<body class="bg-secondary-light">
+<body class="bg-secondary-light {{ page.show }}">
 
   <div class="padding-bottom-9 paper height-auto">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-
-    <section class="hero">
-      {% include background-video.html %}
-      <div>
-        {% include header.html %}
-        {% include hero.html %}
-      </div>
-    </section>
 
     {{ content }}
 

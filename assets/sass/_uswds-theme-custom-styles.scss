@@ -19,6 +19,8 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
-@import 'custom';
-@import 'hero';
-@import 'slides';
+@import "custom";
+@import "hero";
+@import "media";
+@import "slides";
+@import "navigation";

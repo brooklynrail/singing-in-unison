@@ -2,9 +2,28 @@
   <div class="grid-row grid-gap-4">
     <div class="grid-col-12">
       <header class="padding-y-105 border-top-0 border-x-0">
-        <a class="" href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="{{ site.title }}">
-          <img class="margin-right-1 position-relative top-05
-" src="assets/img/brooklyn-rail-logo-outline-white.svg" onerror="this.onerror=null; this.src='brooklynrail-logo-red.png'" alt="{{ site.title }}">
+        <a
+          class=""
+          href="{{ site.baseurl }}/"
+          accesskey="1"
+          title="Home"
+          aria-label="{{ site.title }}"
+        >
+          {% if page.show == "siu8" %}
+          <img
+            class="margin-right-1 position-relative top-05"
+            src="/assets/img/brooklyn-rail-logo-outline-white.svg"
+            onerror="this.onerror=null; this.src='brooklynrail-logo-red.png'"
+            alt="{{ site.title }}"
+          />
+          {% else %}
+          <img
+            class="margin-right-1 position-relative top-05"
+            src="/assets/img/brooklyn-rail-logo-outline-black.svg"
+            onerror="this.onerror=null; this.src='brooklynrail-logo-red.png'"
+            alt="{{ site.title }}"
+          />
+          {% endif %}
         </a>
         <h1 class="margin-y-0 text-bold font-sans-xl display-none">
           {{ site.title }}
