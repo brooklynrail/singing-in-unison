@@ -1,7 +1,7 @@
 {% if include.caption %}
 <figure class="media">
   <img
-    src="./assets/media/{{ include.filename }}"
+    src="/assets/media/{{ include.filename }}"
     {%
     if
     include.alt
@@ -20,7 +20,7 @@
 </figure>
 {% else %}
 <img
-  src="./assets/media/{{ include.filename }}"
+  src="/assets/media/{{ include.filename }}"
   {%
   if
   include.alt
