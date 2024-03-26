@@ -21,11 +21,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: jeremyzilar
 
-include: ["_sections"]
+# include: ["_sections"]
 
 collections:
-  - exhibitions
-  - sections
+  exhibitions:
+    output: true
+    permalink: /exhibitions/:path/
+    order:
+      - peter.md
+      - between-waves.md
+  sections:
+    output: true
 
 # Build settings
 markdown: kramdown
