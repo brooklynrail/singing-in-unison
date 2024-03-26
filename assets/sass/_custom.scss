@@ -118,6 +118,11 @@ body.siu8 {
       @include u-text("blue-cool-20v");
     }
   }
+  .media {
+    figcaption {
+      @include u-text("base-lighter");
+    }
+  }
 }
 
 body.siu9 {

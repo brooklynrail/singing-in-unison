@@ -9,7 +9,6 @@ permalink: siu8/artists
 show: siu8
 ---
 
-oo
 [Martha Atienza](https://www.marthaatienza.com/www.marthaatienza.com/home.html) (b. Manila; based on Bantayan Island, Philippines), explores the intersection of local traditions, human experiences, society, and the environment in her art. She centers her artistic focus and video art on the documentation and exploration of urgent local issues, embracing a sociological perspective. Her work serves as evidence of her dedication to utilizing art as a medium for social engagement and dialogue.
 
 [Chang En-Man](https://amaan286.blogspot.com/p/short-cv.html) (b. Taitung, Taiwan) utilizes moving image, photography, installation, and creative forms of self-organizing and collective projects, to explore how Indigenous people negotiate the ever-shifting socio-cultural terrains and conditions for survival in contemporary Taiwan against the backdrop of modernization and urbanization, rooted in her own experiences and heritage as a half Indigenous person.
