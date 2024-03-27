@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="hero {% if page.video %} height-viewport{% endif %}">
-  <div>{% include header.html %} {% include hero.html %}</div>
+  <div>{% include header.html %}</div>
 </section>
 
 {% assign shows = site.pages | where:"layout", "exhibition" | sort:"show" | reverse %}
