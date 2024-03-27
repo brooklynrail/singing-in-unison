@@ -9,7 +9,7 @@ layout: default
 {% assign shows = site.pages | where:"layout", "exhibition" | sort:"show" | reverse %}
 {% for show in shows  %}
 <section
-  class="exhibition-card {{show.show}} position-relative pointer-cursor padding-y-8"
+  class="exhibition-card {{show.show}} position-relative pointer-cursor padding-y-4 tablet:padding-y-8"
 >
   <div class="grid-container">
     <div class="grid-row grid-gap-4">
@@ -17,7 +17,7 @@ layout: default
       
         <p class="font-sans-sm tablet-lg:font-sans-lg measure-2 text-medium text-italic"
         >{{show.kicker}}</p>
-        <h2 class="margin-y-2 line-height-sans-1 font-sans-2xl mobile-lg:font-sans-2xl tablet-lg:margin-y-3 tablet-lg:font-sans-2xl measure-2 text-thin text-italic margin-0">
+        <h2 class="margin-y-2 line-height-sans-1 font-sans-xl tablet-lg:margin-y-3 tablet-lg:font-sans-2xl measure-2 text-thin text-italic margin-0">
           <a href="{{show.permalink}}" title="{{ show.title }}">{{ show.title }}</a>
         </h2>
         <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">{{show.show_dates}}</br>{{show.show_opening}}</p>
@@ -25,9 +25,11 @@ layout: default
       </div>
       <div class="grid-col-12 tablet-lg:grid-col-9 desktop:grid-col-5">
         {% capture featured_image %}{{ show.featured_image }}{% endcapture %}
-        <a href="{{show.permalink}}" title="{{ show.title }}">
-          {% include media.html filename=featured_image size="xs" alt="" %}
-        </a>
+        <div class="padding-y-2 tablet:padding-y-0">
+          <a class="display-block" href="{{show.permalink}}" title="{{ show.title }}">
+            {% include media.html filename=featured_image size="xs" alt="" %}
+          </a>
+        </div>
       </div>
       
     </div>
