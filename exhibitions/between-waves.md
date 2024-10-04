@@ -14,6 +14,7 @@ twitter:
   username: brooklnrail
   card: summary_large_image
 show: siu8
+order: 8
 ---
 
 <div class="lead margin-bottom-105 tablet:margin-bottom-3">

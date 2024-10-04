@@ -6,27 +6,27 @@ layout: default
   <div>{% include header.html %}</div>
 </section>
 
-{% assign shows = site.pages | where:"layout", "exhibition" | sort:"show" | reverse %}
-{% for show in shows  %}
+{% assign exhibitions = site.pages | where:"layout", "exhibition" | sort:"order" | reverse %}
+{% for exhibition in exhibitions  %}
 <section
-  class="exhibition-card {{show.show}} position-relative pointer-cursor padding-y-4 tablet:padding-y-8"
+  class="exhibition-card {{exhibition.show}} position-relative pointer-cursor padding-y-4 tablet:padding-y-8"
 >
   <div class="grid-container">
     <div class="grid-row grid-gap-4">
       <div class="grid-col-12 tablet-lg:grid-col-9 desktop:grid-col-7">
       
         <p class="font-sans-sm tablet-lg:font-sans-lg measure-2 text-medium text-italic"
-        >{{show.kicker}}</p>
+        >{{exhibition.kicker}}</p>
         <h2 class="margin-y-2 line-height-sans-1 font-sans-xl tablet-lg:margin-y-3 tablet-lg:font-sans-2xl measure-2 text-thin text-italic margin-0">
-          <a href="{{show.permalink}}" title="{{ show.title }}">{{ show.title }}</a>
+          <a href="{{exhibition.permalink}}" title="{{ exhibition.title }}">{{ exhibition.title }}</a>
         </h2>
-        <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">{{show.show_dates}}</br>{{show.show_opening}}</p>
+        <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">{{exhibition.show_dates}}</br>{{exhibition.show_opening}}</p>
         
       </div>
       <div class="grid-col-12 tablet-lg:grid-col-9 desktop:grid-col-5">
-        {% capture featured_image %}{{ show.featured_image }}{% endcapture %}
+        {% capture featured_image %}{{ exhibition.featured_image }}{% endcapture %}
         <div class="padding-y-2 tablet:padding-y-0">
-          <a class="display-block" href="{{show.permalink}}" title="{{ show.title }}">
+          <a class="display-block" href="{{exhibition.permalink}}" title="{{ exhibition.title }}">
             {% include media.html filename=featured_image size="xs" alt="" %}
           </a>
         </div>

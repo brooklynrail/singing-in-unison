@@ -124,6 +124,14 @@ body.siu8 {
     }
   }
 }
+.siu8.exhibition-card {
+  background: linear-gradient(160.44deg, #000000 44.27%, #234347 86.9%);
+  background-attachment: fixed;
+  @include u-text("blue-cool-5");
+  a {
+    @include u-text("blue-cool-20v");
+  }
+}
 
 body.siu9 {
   @include u-text("gray-cool-80");
@@ -137,11 +145,30 @@ body.siu9 {
   }
 }
 
-.siu8.exhibition-card {
-  background: linear-gradient(160.44deg, #000000 44.27%, #234347 86.9%);
+body.siu10 {
+  @include u-text("mint-80v");
+  .paper {
+    @include u-bg("mint-10");
+    // background: linear-gradient(160.44deg, #a4d0ad 60%, #68d67c 100%);
+    // background-attachment: fixed;
+  }
+  .lead {
+    @include u-text("mint-80v");
+  }
+  a,
+  #navigation ul li a {
+    @include u-text("mint-80v");
+  }
+  .hero {
+    // @include u-bg("gray-warm-5");
+  }
+}
+.siu10.exhibition-card {
+  @include u-text("mint-80v");
+  @include u-bg("mint-10v");
+  background: linear-gradient(160.44deg, #f0f0ec 44.27%, #c7efe2 86.9%);
   background-attachment: fixed;
-  @include u-text("blue-cool-5");
   a {
-    @include u-text("blue-cool-20v");
+    @include u-text("mint-80v");
   }
 }

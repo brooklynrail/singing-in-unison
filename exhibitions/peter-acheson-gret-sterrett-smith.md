@@ -13,6 +13,7 @@ twitter:
   username: brooklnrail
   card: summary_large_image
 show: siu9
+order: 9
 ---
 
 <div class="lead margin-bottom-105 tablet:margin-bottom-3">
