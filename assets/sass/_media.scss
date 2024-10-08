@@ -58,6 +58,12 @@
   padding-top: 30px;
   height: 0;
   overflow: hidden;
+  .caption {
+    @include u-margin(0);
+    @include u-padding-x("05");
+    @include u-text("base");
+    @include u-font("sans", "3xs");
+  }
 }
 
 .video iframe,
@@ -82,6 +88,23 @@
     @include u-width("mobile-lg");
     @include u-height("auto");
   }
+  .caption {
+    @include u-margin(0);
+    @include u-padding-x("05");
+    @include u-text("base");
+    @include u-font("sans", "3xs");
+  }
+}
+
+.youtube {
+  @include u-margin-bottom(3);
+  @include u-width("full");
+  @include u-height("auto");
+  @include u-float("right");
+  @include u-margin-left(4);
+  @include u-overflow("hidden");
+  @include u-position("relative");
+
   .caption {
     @include u-margin(0);
     @include u-padding-x("05");
