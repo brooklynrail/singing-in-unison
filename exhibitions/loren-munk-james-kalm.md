@@ -22,5 +22,5 @@ order: 10
   <p class="font-sans-md tablet:font-sans-lg measure-2 text-light">In Loving Memory of Neeli Cherkovski (1945–2024)</p>
   
   <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">October 17&ndash;November 16, 2024 <br/><span><a href="https://www.ruttkowski68.com/">Ruttkowski;68</a><br/>46 Cortlandt Alley, New York<a class="padding-x-1 text-no-underline" href="https://maps.app.goo.gl/LvXGE4t31P5T7hPF7"><span class="hover:border-bottom-2px"></span> <i class="fas fa-map-marked-alt"></i></a></p>
-  <p class="font-sans-2xs mobile-lg:font-sans-sm tablet-lg:font-sans-md measure-3 text-light">Opening: October 17, 6&dash;8pm, featuring a cooking performance by Rirkrit Tiravanija, Tomas Vu, and co.</p>
+  <p class="font-sans-2xs mobile-lg:font-sans-sm tablet-lg:font-sans-md measure-3 text-light">Opening: October 17, 6&dash;8 p.m., featuring a cooking performance by Rirkrit Tiravanija, Tomas Vu, and co.</p>
 </div>
