@@ -1,5 +1,6 @@
 .media {
   @include u-margin-y(2);
+  @include u-margin-bottom(5);
   @include u-margin-right(0);
   .credit {
     @include u-display("block");
@@ -97,6 +98,7 @@
 }
 
 .youtube {
+  @include u-margin-top(8);
   @include u-margin-bottom(3);
   @include u-width("full");
   @include u-height("auto");
