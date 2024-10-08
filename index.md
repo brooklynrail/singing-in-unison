@@ -6,7 +6,7 @@ layout: homepage
 title: "Singing in Unison"
 deck: ""
 description: ""
-image: "/assets/media/siu9/acheson-smith.png"
+image: "/assets/media/siu10/Soho-Hells-Hundred-Acres.jpg"
 twitter:
   username: brooklnrail
   card: summary_large_image
