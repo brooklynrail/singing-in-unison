@@ -21,6 +21,6 @@ order: 10
   <h1 class="margin-y-2 line-height-sans-1 font-sans-2xl mobile-lg:font-sans-2xl tablet-lg:margin-y-3 tablet-lg:font-sans-3xl measure-2 text-thin margin-0 text-italic">Loren Munk & James Kalm</h1>
   <p class="font-sans-md tablet:font-sans-lg measure-2 text-light">In Loving Memory of Neeli Cherkovski (1945–2024)</p>
   
-  <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">October 17&ndash;November 16, 2024 <br/> Ruttkowski;68 <a class="padding-x-1 text-no-underline" href="https://maps.app.goo.gl/LvXGE4t31P5T7hPF7"><span class="hover:border-bottom-2px"></span> <i class="fas fa-map-marked-alt"></i></a></p>
+  <p class="font-sans-md tablet-lg:font-sans-lg measure-2 text-light">October 17&ndash;November 16, 2024 <br/><span><a href="https://www.ruttkowski68.com/">Ruttkowski;68</a><br/>46 Cortlandt Alley, New York<a class="padding-x-1 text-no-underline" href="https://maps.app.goo.gl/LvXGE4t31P5T7hPF7"><span class="hover:border-bottom-2px"></span> <i class="fas fa-map-marked-alt"></i></a></p>
   <p class="font-sans-2xs mobile-lg:font-sans-sm tablet-lg:font-sans-md measure-3 text-light">Opening: October 17, 6&dash;8pm, featuring a cooking performance by Rirkrit Tiravanija, Tomas Vu, and co.</p>
 </div>
